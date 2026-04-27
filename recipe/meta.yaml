@@ -1,5 +1,5 @@
 {% set name = "gpx" %}
-{% set version = "2026.1.0" %}
+{% set version = "2026.2.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gpx-{{ version }}.tar.gz
-  sha256: 85997fe2c9759b3c8038f4c48a8b786f50baf7cee851f7a9d212843a43e2741d
+  sha256: 2062ffaf355aaf4ec68a8696e8849b7e2d687da7662a61b7cda300fddcd5088a
 
 build:
   noarch: python
